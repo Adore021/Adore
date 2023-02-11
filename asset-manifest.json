@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Adore/static/css/main.92452943.css",
+    "main.js": "/Adore/static/js/main.023ef23b.js",
+    "static/js/787.0752baad.chunk.js": "/Adore/static/js/787.0752baad.chunk.js",
+    "static/media/programer-2.jpg": "/Adore/static/media/programer-2.0d839a5acbd31eddfd9b.jpg",
+    "static/media/developer.png": "/Adore/static/media/developer.d31a2d71a5a864de0eea.png",
+    "static/media/John-Cv.pdf": "/Adore/static/media/John-Cv.e83747cf513e0b21a7f1.pdf",
+    "index.html": "/Adore/index.html",
+    "main.92452943.css.map": "/Adore/static/css/main.92452943.css.map",
+    "main.023ef23b.js.map": "/Adore/static/js/main.023ef23b.js.map",
+    "787.0752baad.chunk.js.map": "/Adore/static/js/787.0752baad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92452943.css",
+    "static/js/main.023ef23b.js"
+  ]
+}

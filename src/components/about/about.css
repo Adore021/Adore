@@ -1,0 +1,128 @@
+.about__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about__data{
+    position: relative;
+}
+
+.about__img{
+    width: 400px;
+    justify-self: center;
+    border-left: 2px solid var(--title-color-dark);
+}
+
+.section__title{
+    margin-bottom: 20px;
+    text-align: initial;
+}
+.section__subtitle{
+    position: relative;
+    color: var(--title-color-dark);
+    font-size: var(--normal-size);
+    font-weight: var(--font-medium);
+    text-transform: uppercase;
+    text-align: initial;
+    margin-bottom: var(--mb-0-25);
+}
+
+.about__info{
+    grid-template-columns: repeat(3, 140px);
+    margin-bottom: var(--mb-2);
+}
+
+.about__box{
+    background: var(--container_color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem .5rem;
+}
+
+.about__icon{
+    font-size: 1.5rem;
+    color: var(--title-color-dark);
+    margin-bottom: var(--mb-0-5);
+}
+
+.about__title{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.about__subtitle{
+    font-size: var(--tiny-font-size);
+}
+
+.about__description{
+    font-size: .8rem;
+    margin-bottom: var(--mb-1);
+}
+
+.let__connect{
+    position: absolute;
+    right: 10px;
+    color: var(--title-color-dark-2);
+    font-weight: var(--font-medium);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about__container a{
+        text-align: center;
+    }
+
+    .about__img{
+        width: 320px;
+        align-self: center;
+    }
+
+    .about__box{
+        padding: 0.75rem 0.5rem;
+    }
+
+    .about__info{
+        justify-content: center;
+    }
+
+    .about__description{
+        padding-right: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .let__connect{
+        right: 100px;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .about__info{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__description{
+        padding: 0;
+    }
+
+    .let__connect{
+        right: 20px;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .about__info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
